@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* h1{
+    background-color: red;
+    color: white;
+} */
+
+.ptag{
+    background-color: teal;
+    color: white;
+}
+
+.size{
+    font-size: 40px;
+    background-color: blue;
+}
+
+.pet{
+    font-size: 30px;
+    background-color: brown !important;
+}
+
+#htag{
+    background-color: orange;
+    color: white;
+}
+
+
+/* .div1{
+    background-color: red;
+} */
+
+/* .div1 p{
+    background-color: red;
+    color: white;
+    margin: 20px;
+} */
+
+/* .div1 > p{
+    background-color: teal;
+    color: white;
+    margin: 20px;
+} */
+
+/* .div1 + p{
+    background-color: teal;
+    color: white;
+    margin: 20px;
+} */
+
+/* .div1 ~ p{
+    background-color: teal;
+    color: white;
+    margin: 20px;
+} */
+
+.div1 p{
+    background-color: teal;
+    color: white;
+    /* margin: 20px; */
+    /* margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: 200px; */
+    margin: 30px 70px;
+    padding: 20px;
+}
+
+/* px, %, rem,em,vh, vwh, ch, cm */
+
+.div1 p:nth-child(1){
+    background-color: red;
+}
+
+h1::after{
+    content: ' WOMEN';
+    color: red;
+}
+
+h1::before{
+    content: 'MARKET';
+    color: blue;
+}
