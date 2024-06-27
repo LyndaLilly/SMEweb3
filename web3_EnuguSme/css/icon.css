@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* i{
+    font-size: 50px;
+    color: green;
+    padding: 30px;
+} */
+
+.icon1{
+    font-size: 70px;
+    color: red;
+    padding: 20px;
+}
+
+
+.nav1{
+    background-color: teal;
+    padding: 20px;
+    font-size: 30px;
+   
+}
+
+.nav1 a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+   
+}
+
+
+.nav2{
+    background-color: red;
+    /* padding: 20px; */
+    font-size: 30px;
+    margin-top: 30px;
+   width: 20%;
+}
+
+.nav2 a{
+    color: white;
+    padding: 20px 0;
+    text-decoration: none;
+    display: block;
+   
+}
+
+a:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.ol-1{
+    margin: 60px;
+    font-size: 40px;
+    background-color: orchid;
+    list-style-position: inside;
+    padding: 20px;
+}
+
+li{
+    margin: 30px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    /* display: inline; */
+}
+
+
+ol li::marker{
+    color: yellow;
+}
