@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.div1{
+    background-color: white;
+    /* color: white; */
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    width: 30%;
+    margin: 30px;
+    transition: all 2s ease-in-out;
+    box-shadow: 1px 0px 13px 1px black;;
+}
+
+.div1:hover{
+    transform: translate(20px, 30px);
+}
+
+.div2{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    width: 30%;
+    margin: 30px;
+    transition: all 2s ease-in-out;
+}
+
+.div2:hover{
+    transform: scaleY(2);
+}
+
+.div3{
+    background-color: gray;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    width: 30%;
+    margin: 30px;
+    transition: all 2s ease-in-out;
+}
+
+.div3:hover{
+    transform: skew(-20deg);
+}
+
+
+
+.div4{
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    width: 30%;
+    margin: 30px;
+    transition: all 2s ease-in-out;
+}
+
+.div4:hover{
+    transform: rotate(360deg);
+}
+
+
+
+.div5{
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    width: 30%;
+    margin: 30px;
+    transition: 2s ease-in-out all;
+}
+
+
+.div5:hover{
+    transform: rotateZ(360deg);
+}

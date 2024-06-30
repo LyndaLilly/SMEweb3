@@ -54,3 +54,38 @@
     outline-offset: 20px;
     margin: 20px;
 }
+
+
+.text{
+    /* background-color: teal; */
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    text-align: justify;
+    text-align: end;
+    text-align:start;
+    text-align: justify;
+    font-weight: 100;
+    font-weight: bold;
+    text-shadow: 1px 0px 4px red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Playwrite ES Deco", cursive;
+
+}
+
+
+.ptag{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Sofia", cursive;
+    word-spacing: 30px;
+    line-height: 2;
+    font-style: italic;
+}
+
+
