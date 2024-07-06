@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.sec1{
+    background-color: grey;
+    margin: auto;
+    width: 65%;
+    padding: 40px;
+}
+
+
+.div1{
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    gap: 40px;
+    border-radius: 20px;
+}
+
+.name, .email, .pass, .repeat{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form h1{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.form input{
+    border: 0;
+    outline: 0;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.img{
+    margin-top: 50px;
+}
+
+
+
+.terms{
+    margin-bottom: 20px;
+    font-size: 10px;
+    margin-left: 24px;
+}
+
+.terms a{
+    text-decoration: none;
+}
+
+.register button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 10px;
+}
+
+.register{
+    text-align: center;
+}
+
+.form i{
+    padding-top: 5px;
+}
+
+.in{
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: 0;
+}
+
+
+.div2{
+    background: linear-gradient(30deg, red, black);
+    height: 50vh;
+}
+
+
+
+
+@media (max-width:600px) {
+    .div1 {
+        flex-direction: column;
+        gap: 0;
+        padding: 23px;
+    }
+
+
+    .name input, .email input, .pass input, .repeat input{
+        width: 100%;
+    }
+
+    .terms{
+        font-size: 15px;
+    }
+
+    .sec1{
+        width: 80%;
+        padding: 20px;
+    }
+
+    
+}
+
+
+@media (max-width:300px) {
+   .img{
+    display: none;
+   }
+}
+
+
+@media (max-width:350px) {
+    .sec1{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .div1 {
+        flex-direction: column;
+        gap: 0;
+        padding: 23px;
+    }
+
+
+    .name input, .email input, .pass input, .repeat input{
+        width: 100%;
+    }
+
+    .terms{
+        font-size: 15px;
+    }
+
+    .form{
+        background-color: teal;
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .form i{
+        color: white;
+    }
+
+    .form a{
+        color: white;
+    }
+
+
+    
+}
+
+
