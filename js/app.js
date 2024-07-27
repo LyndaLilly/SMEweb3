@@ -228,9 +228,9 @@ if(a > b){
 
 // debugger;
 
-for(let i = 0; i <= 20; i++){
-    console.log(i)
-}
+// for(let i = 0; i <= 20; i++){
+//     console.log(i)
+// }
 
 
 // let str = "Today is saturday"
@@ -271,30 +271,96 @@ for(let i = 0; i <= 20; i++){
 // }while(i <= 10)
 
 
-let today = prompt("enter a day to search")
+// let today = prompt("enter a day to search")
 
-switch(today){
-    case "Tuesday":
-    case "Saturday":
-    case "Apple":
+// switch(today){
+//     case "Tuesday":
+//     case "Saturday":
+//     case "Apple":
     
-    console.log("dey search am")
-    break;
+//     console.log("dey search am")
+//     break;
 
-    case "Monday":
-    case "Banana":
+//     case "Monday":
+//     case "Banana":
     
-    console.log("i don arrive here")
+//     console.log("i don arrive here")
 
-    break;
+//     break;
 
 
-    default:
-        console.log("finally done!")
+//     default:
+//         console.log("finally done!")
+// }
+
+// let age = 18
+
+// result = age < 18 ? "you are qualified" : "you are not qualified"
+
+// console.log(result)
+
+
+// for(i = 0; i <= 10; i++){
+//     if(i <= 5){
+//         break;
+//     }
+//     console.log(i)
+
+// }
+
+// for(i = 0; i <= 10; i++){
+//     if(i == 6){
+//         continue;
+//     }
+
+//     console.log(i)
+
+// }
+
+let myset = new Set(["Red", "Blue", "Black"])
+
+for(x of myset){
+    console.log(x)
 }
 
-let age = 18
+console.log(myset)
 
-result = age < 18 ? "you are qualified" : "you are not qualified"
+myset.forEach(item => {
+    console.log(item)
+});
 
-console.log(result)
+
+
+
+
+
+let items = new Set()
+
+items.add("Mango")
+items.add("Baanana")
+items.add("Oranges")
+
+console.log(items)
+
+res = items.has("mango")
+
+console.log(res)
+
+res2 = items.values()
+res2 = items.entries()
+
+console.log(res2)
+// const days_of_week = new Map([
+//     ["Sunday", 0],
+//     ["Monday", 1],
+//     ["Tuesday", 2],
+//     ["Wednesday", 3]
+// ])
+
+// console.log(days_of_week)
+
+
+
+
+
+
