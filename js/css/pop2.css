@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_sec{
+ 
+}
+
+.container{
+    background-color: teal;
+    padding: 20px;
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+ 
+}
+
+.pop{
+    position: relative;
+    animation-name: pop;
+    animation-duration: 2s;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+@keyframes pop {
+    from{top:  -1000px;}
+    to{top: 100px;}
+    
+}
+
+.count{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    padding: 50px 150px;
+    width: 50%;
+    margin: auto;
+}

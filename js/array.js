@@ -126,7 +126,7 @@ let newStds = stds.map((item, i, arry)=>{
 console.log(newStds)
 
 //assignemnt arrays
-let search = prompt('enter ')
+// let search = prompt('enter ')
 
 //  * write js fuction that will search for a word in string
 // * a. if the word exist, return the word 
@@ -139,3 +139,35 @@ let search = prompt('enter ')
 // * write a js function that will print the factorial of a number
 // * 
 // * array methods : every, slice, split, map, reduce, filter, includes, indexof, find, findLast, sort
+
+let msg = "Today is saturday"
+
+let searchs = prompt('enter a word to search')
+
+
+function searcWord(word,word2){
+    if(word.includes(word2)){
+        console.log(searchs.split('').reverse().join(''))
+    }else{
+        console.log("search not found")
+    }
+}
+
+searcWord(msg,searchs)
+
+let check_word = prompt("enter a word to search")
+checks = check_word.toLowerCase()
+
+
+function palin(palins){
+    palins = checks
+    palins = palins.split('').reverse().join('')
+
+    if(palins === checks){
+        console.log("is a palindronme")
+    }else{
+        console.log('not a palin')
+    }
+}
+
+palin(checks)
